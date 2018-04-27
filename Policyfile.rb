@@ -1,6 +1,6 @@
 name "jenkins"
 
-default_source :community
+default_source :supermarket
 
 run_list "apt", "java", "jenkins::master", "recipe[policyfile_demo]"
 
